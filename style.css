@@ -70,6 +70,15 @@ input:focus {
     text-align: center;
 }
 
+header {
+}
+
+header:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+}
 
 footer {
 	border-top: 1px solid #e4e4e4;
